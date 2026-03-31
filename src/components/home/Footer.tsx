@@ -12,6 +12,7 @@ const quickLinks = [
   { label: "Testimony", href: "/testimony" },
   { label: "Our Solution", href: "#solution" },
   { label: "Environmental Impact", href: "/impact" },
+  { label: "Contact", href: "/contact" },
   { label: "Careers", href: "#careers" },
 ];
 
@@ -152,8 +153,11 @@ export function Footer() {
             <div className="relative overflow-hidden rounded-xl border border-white/15">
               <iframe
                 title="Map — Thika Rd, Nairobi"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=36.815%2C-1.305%2C36.835%2C-1.285&amp;layer=mapnik"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.9235695230923!2d36.89712987536958!3d-1.213445398774966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f167837d774ad%3A0x87569206043adbc7!2sThika%20Rd!5e0!3m2!1sen!2ske!4v1774961430549!5m2!1sen!2ske"
                 className="footer-map-embed h-28 w-full border-0"
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
               />
             </div>
             <ul className="flex flex-col gap-4 text-sm font-normal text-white/95">

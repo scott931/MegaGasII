@@ -14,7 +14,7 @@ const nav = [
   { label: "Overview", href: "/overview" },
   { label: "Testimony", href: "/testimony" },
   { label: "Partner", href: "#partner" },
-  { label: "Contact Us", href: "#contact-us" },
+  { label: "Contact Us", href: "/contact" },
 ];
 
 export function Header() {

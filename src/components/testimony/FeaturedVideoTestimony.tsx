@@ -12,13 +12,13 @@ export function FeaturedVideoTestimony() {
   const [playing, setPlaying] = useState(false);
 
   return (
-    <section className="bg-[#1B4332] px-4 pb-16 pt-2 sm:px-6 sm:pb-20 md:pb-24">
+    <section className="bg-white px-4 pb-16 pt-4 sm:px-6 sm:pb-20 sm:pt-6 md:pb-24">
       <div className="mx-auto max-w-5xl">
         <motion.p
           initial={{ opacity: 0, y: 12 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="mb-6 text-center text-sm font-semibold uppercase tracking-[0.2em] text-white/70"
+          className="mb-6 text-center text-sm font-semibold uppercase tracking-[0.2em] text-[#1B4332]/75"
         >
           Featured story
         </motion.p>
@@ -27,7 +27,7 @@ export function FeaturedVideoTestimony() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-          className="relative overflow-hidden rounded-3xl border-8 border-white/10 shadow-2xl shadow-black/40"
+          className="relative overflow-hidden rounded-3xl border-8 border-emerald-100/90 bg-softwhite shadow-2xl shadow-neutral-900/10"
         >
           <div className="relative aspect-video w-full bg-black">
             {!playing ? (
@@ -61,15 +61,15 @@ export function FeaturedVideoTestimony() {
                 </p>
               </>
             ) : (
-              <div className="flex aspect-video flex-col items-center justify-center gap-4 bg-[#0f2922] px-6 text-center">
-                <p className="max-w-md text-base text-white/90">
+              <div className="flex aspect-video flex-col items-center justify-center gap-4 bg-softwhite px-6 text-center">
+                <p className="max-w-md text-base text-neutral-700">
                   Full production interview will be published here. Connect with our team for
                   early access or partner screenings.
                 </p>
                 <button
                   type="button"
                   onClick={() => setPlaying(false)}
-                  className="rounded-full border border-white/30 px-5 py-2 text-sm font-medium text-white transition hover:bg-white/10"
+                  className="rounded-full border border-[#1B4332]/25 bg-white px-5 py-2 text-sm font-medium text-[#1B4332] transition hover:bg-emerald-50"
                 >
                   Back to preview
                 </button>

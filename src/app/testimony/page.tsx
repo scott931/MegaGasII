@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { FeaturedVideoTestimony } from "@/components/testimony/FeaturedVideoTestimony";
 import { Footer } from "@/components/home/Footer";
 import { Header } from "@/components/home/Header";
-import { PartnerMarquee } from "@/components/testimony/PartnerMarquee";
+// import { PartnerMarquee } from "@/components/testimony/PartnerMarquee"; // Restored when partners page ships
 import { TestimonialMasonry } from "@/components/testimony/TestimonialMasonry";
 import { TestimonyCTA } from "@/components/testimony/TestimonyCTA";
 import { TestimonyHero } from "@/components/testimony/TestimonyHero";
@@ -21,7 +21,7 @@ export default function TestimonyPage() {
         <TestimonyHero />
         <FeaturedVideoTestimony />
         <TestimonialMasonry />
-        <PartnerMarquee />
+        {/* <PartnerMarquee /> — logo marquee moved to dedicated partners page */}
         <TestimonyCTA />
       </main>
       <Footer />

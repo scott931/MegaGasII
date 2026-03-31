@@ -20,11 +20,11 @@ function Metric({
   const n = useCountUp(value, 2200, enabled, decimals ?? 0);
   return (
     <div className="flex flex-col items-center px-3 text-center sm:px-5">
-      <p className="text-lg font-bold tabular-nums text-white sm:text-xl md:text-2xl">
+      <p className="text-lg font-bold tabular-nums text-[#1B4332] sm:text-xl md:text-2xl">
         {decimals ? n.toFixed(decimals) : n.toLocaleString()}
         {suffix}
       </p>
-      <p className="mt-1 text-[10px] font-medium uppercase tracking-wider text-white/75 sm:text-xs">
+      <p className="mt-1 text-[10px] font-medium uppercase tracking-wider text-neutral-600 sm:text-xs">
         {label}
       </p>
     </div>
@@ -38,14 +38,14 @@ export function TestimonyHero() {
   return (
     <section
       ref={ref}
-      className="bg-[#1B4332] px-4 pb-16 pt-8 sm:px-6 sm:pb-20 sm:pt-10 md:pb-24"
+      className="bg-white px-4 pb-16 pt-8 sm:px-6 sm:pb-20 sm:pt-10 md:pb-24"
     >
       <div className="mx-auto max-w-4xl text-center">
         <motion.h1
           initial={{ opacity: 0, y: 24 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-6 text-4xl font-bold tracking-tight text-white sm:mt-8 sm:text-5xl md:mt-10 md:text-6xl"
+          className="mt-6 text-4xl font-bold tracking-tight text-[#1B4332] sm:mt-8 sm:text-5xl md:mt-10 md:text-6xl"
         >
           Stories of Change
         </motion.h1>
@@ -53,7 +53,7 @@ export function TestimonyHero() {
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.55, delay: 0.08, ease: [0.22, 1, 0.36, 1] }}
-          className="mx-auto mt-4 max-w-2xl text-base text-white/85 sm:text-lg"
+          className="mx-auto mt-4 max-w-2xl text-base text-neutral-600 sm:text-lg"
         >
           The voice of our community—verified households, partners, and neighbors who chose
           clean energy with Mega Gas.
@@ -63,9 +63,9 @@ export function TestimonyHero() {
           initial={{ opacity: 0, y: 18 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.55, delay: 0.16, ease: [0.22, 1, 0.36, 1] }}
-          className="mx-auto mt-10 max-w-3xl rounded-2xl border border-white/15 bg-white/5 px-4 py-5 backdrop-blur-sm sm:mt-12 sm:px-6 sm:py-6"
+          className="mx-auto mt-10 max-w-3xl rounded-2xl border border-emerald-100/90 bg-softwhite/90 px-4 py-5 shadow-sm backdrop-blur-sm sm:mt-12 sm:px-6 sm:py-6"
         >
-          <div className="flex flex-col items-stretch justify-center gap-6 sm:flex-row sm:items-start sm:gap-0 sm:divide-x sm:divide-white/20">
+          <div className="flex flex-col items-stretch justify-center gap-6 sm:flex-row sm:items-start sm:gap-0 sm:divide-x sm:divide-emerald-100">
             <Metric
               value={5000}
               suffix="+"
