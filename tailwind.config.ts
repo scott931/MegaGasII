@@ -39,6 +39,15 @@ const config: Config = {
         sans: ["var(--font-outfit)", "system-ui", "sans-serif"],
         display: ["var(--font-outfit)", "system-ui", "sans-serif"],
       },
+      keyframes: {
+        "marquee-testimony": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-50%)" },
+        },
+      },
+      animation: {
+        "marquee-testimony": "marquee-testimony 45s linear infinite",
+      },
     },
   },
   plugins: [],

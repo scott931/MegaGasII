@@ -1,13 +1,16 @@
 import type { Metadata } from "next";
+import { FeaturedVideoTestimony } from "@/components/testimony/FeaturedVideoTestimony";
 import { Footer } from "@/components/home/Footer";
 import { Header } from "@/components/home/Header";
-import { FloatingTestimonialsHero } from "@/components/testimony/FloatingTestimonialsHero";
-import { TestimonialsShowcase } from "@/components/testimony/TestimonialsShowcase";
+import { PartnerMarquee } from "@/components/testimony/PartnerMarquee";
+import { TestimonialMasonry } from "@/components/testimony/TestimonialMasonry";
+import { TestimonyCTA } from "@/components/testimony/TestimonyCTA";
+import { TestimonyHero } from "@/components/testimony/TestimonyHero";
 
 export const metadata: Metadata = {
-  title: "Testimonials | Mega Gas Alternative Energy",
+  title: "Stories of Change | Mega Gas Alternative Energy",
   description:
-    "Trusted by households and businesses across Kenya—success stories from Mega Gas customers.",
+    "Verified success stories from households and partners—Mega Gas clean energy for Kenya.",
 };
 
 export default function TestimonyPage() {
@@ -15,8 +18,11 @@ export default function TestimonyPage() {
     <>
       <Header />
       <main className="min-h-screen bg-white pt-[92px] sm:pt-[108px]">
-        <FloatingTestimonialsHero />
-        <TestimonialsShowcase />
+        <TestimonyHero />
+        <FeaturedVideoTestimony />
+        <TestimonialMasonry />
+        <PartnerMarquee />
+        <TestimonyCTA />
       </main>
       <Footer />
     </>
