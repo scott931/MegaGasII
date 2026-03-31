@@ -10,6 +10,7 @@ const quickLinks = [
   { label: "About Us", href: "/about-us" },
   { label: "Overview", href: "/overview" },
   { label: "Testimony", href: "/testimony" },
+  { label: "Partners", href: "/partners" },
   { label: "Our Solution", href: "#solution" },
   { label: "Environmental Impact", href: "/impact" },
   { label: "Contact", href: "/contact" },

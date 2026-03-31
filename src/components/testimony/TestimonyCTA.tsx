@@ -19,7 +19,7 @@ export function TestimonyCTA() {
           Join thousands of households and partners who trust Mega Gas every day.
         </p>
         <Link
-          href="/#partner"
+          href="/partners"
           className="mt-8 inline-flex min-h-[48px] items-center justify-center rounded-full bg-brand-forest px-8 text-sm font-semibold text-white shadow-md transition hover:bg-forest-dark hover:scale-[1.02]"
         >
           Join the movement

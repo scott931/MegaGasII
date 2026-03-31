@@ -18,7 +18,10 @@ const cards = [
 
 export function SocialImpactSection() {
   return (
-    <section className="bg-[#F8F9FA] px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
+    <section
+      id="community-kitchen"
+      className="scroll-mt-28 bg-[#F8F9FA] px-4 py-16 sm:px-6 sm:py-20 sm:scroll-mt-32 lg:px-8"
+    >
       <div className="mx-auto max-w-5xl">
         <motion.p
           initial={{ opacity: 0, y: 12 }}

@@ -40,7 +40,7 @@ export function OverviewVisualAnchor() {
               Download technical datasheet
             </a>
             <Link
-              href="/#partner"
+              href="/partners"
               className="inline-flex min-h-[48px] items-center justify-center rounded-full border-2 border-white bg-white/10 px-8 text-sm font-semibold text-white backdrop-blur-sm transition hover:bg-white/20"
             >
               Partner with us
