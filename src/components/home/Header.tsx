@@ -11,7 +11,7 @@ const nav = [
   { label: "Impact", href: "/impact" },
   { label: "Community Kitchen", href: "#community-kitchen" },
   { label: "About Us", href: "/about-us" },
-  { label: "Overview", href: "#overview" },
+  { label: "Overview", href: "/overview" },
   { label: "Testimony", href: "#testimony" },
   { label: "Partner", href: "#partner" },
   { label: "Contact Us", href: "#contact-us" },
