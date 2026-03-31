@@ -7,7 +7,7 @@ import logo from "@/images/logo1.png";
 
 const quickLinks = [
   { label: "Home", href: "/" },
-  { label: "About Us", href: "#about-us" },
+  { label: "About Us", href: "/about-us" },
   { label: "Our Solution", href: "#solution" },
   { label: "Environmental Impact", href: "/impact" },
   { label: "Careers", href: "#careers" },

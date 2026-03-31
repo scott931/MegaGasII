@@ -10,7 +10,7 @@ import logo from "@/images/logo1.png";
 const nav = [
   { label: "Impact", href: "/impact" },
   { label: "Community Kitchen", href: "#community-kitchen" },
-  { label: "About Us", href: "#about-us" },
+  { label: "About Us", href: "/about-us" },
   { label: "Overview", href: "#overview" },
   { label: "Testimony", href: "#testimony" },
   { label: "Partner", href: "#partner" },
