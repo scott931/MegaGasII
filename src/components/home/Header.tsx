@@ -2,12 +2,13 @@
 
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 import logo from "@/images/logo1.png";
 
 const nav = [
-  { label: "Impact", href: "#impact" },
+  { label: "Impact", href: "/impact" },
   { label: "Community Kitchen", href: "#community-kitchen" },
   { label: "About Us", href: "#about-us" },
   { label: "Overview", href: "#overview" },
@@ -17,8 +18,13 @@ const nav = [
 ];
 
 export function Header() {
+  const pathname = usePathname();
+  const isHome = pathname === "/";
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+
+  /* On non-home pages the hero is light—use solid bar + dark nav. Home top uses transparent + white nav over video. */
+  const solidHeader = scrolled || !isHome;
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 32);
@@ -59,8 +65,8 @@ export function Header() {
       "rounded-lg font-medium transition",
       isMobile
         ? "block w-full py-3 text-base"
-        : "px-2 py-2 text-sm hover:opacity-80",
-      scrolled
+        : "px-2.5 py-2 text-base hover:opacity-80",
+      solidHeader
         ? "text-brand-forest hover:bg-brand-forest/5"
         : "text-white hover:bg-white/10"
     );
@@ -69,31 +75,31 @@ export function Header() {
     <header
       className={cn(
         "fixed top-0 z-50 w-full transition-all duration-300",
-        scrolled
+        solidHeader
           ? "border-b border-brand-forest/10 bg-softwhite/95 shadow-sm shadow-brand-forest/5 backdrop-blur-md"
           : "bg-transparent"
       )}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex h-[72px] items-center justify-between gap-3 sm:h-20">
+        <div className="flex min-h-[92px] items-center justify-between gap-3 py-2 sm:min-h-[108px] sm:py-3">
           <a
-            href="#"
+            href="/"
             className="flex shrink-0 items-center rounded-lg transition-opacity hover:opacity-90"
             onClick={() => setMobileOpen(false)}
           >
             <Image
               src={logo}
               alt="Mega Gas — Clean and affordable cooking gas"
-              className="h-10 w-10 object-contain sm:h-11 sm:w-11"
+              className="h-[72px] w-[72px] object-contain object-left object-top sm:h-24 sm:w-24"
               priority
-              sizes="48px"
+              sizes="(max-width: 768px) 72px, 96px"
             />
           </a>
 
           <nav
             className={cn(
-              "hidden items-center gap-1 md:flex lg:gap-2",
-              scrolled ? "text-brand-forest" : "text-white"
+              "hidden items-center gap-2 md:flex md:gap-2.5 lg:gap-3",
+              solidHeader ? "text-brand-forest" : "text-white"
             )}
             aria-label="Primary"
           >
@@ -109,7 +115,7 @@ export function Header() {
               href="#hero-cta"
               className={cn(
                 "hidden rounded-full px-4 py-2 text-sm font-semibold shadow-sm transition md:inline-flex md:items-center",
-                scrolled
+                solidHeader
                   ? "bg-brand-forest text-white hover:bg-brand-forest/90"
                   : "bg-white text-brand-forest hover:bg-white/90"
               )}
@@ -121,7 +127,7 @@ export function Header() {
               type="button"
               className={cn(
                 "inline-flex h-11 w-11 items-center justify-center rounded-lg transition md:hidden",
-                scrolled
+                solidHeader
                   ? "text-brand-forest hover:bg-brand-forest/10"
                   : "text-white hover:bg-white/10"
               )}
@@ -145,7 +151,7 @@ export function Header() {
         className={cn(
           "border-t md:hidden",
           mobileOpen ? "block" : "hidden",
-          scrolled
+          solidHeader
             ? "border-brand-forest/10 bg-softwhite"
             : "border-white/15 bg-brand-forest/95 backdrop-blur-md"
         )}
@@ -157,7 +163,7 @@ export function Header() {
           <ul
             className={cn(
               "flex flex-col divide-y",
-              scrolled ? "divide-brand-forest/15" : "divide-white/15"
+              solidHeader ? "divide-brand-forest/15" : "divide-white/15"
             )}
           >
             {nav.map((item) => (

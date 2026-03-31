@@ -6,10 +6,10 @@ import { Mail, MapPin, Phone } from "lucide-react";
 import logo from "@/images/logo1.png";
 
 const quickLinks = [
-  { label: "Home", href: "#" },
+  { label: "Home", href: "/" },
   { label: "About Us", href: "#about-us" },
   { label: "Our Solution", href: "#solution" },
-  { label: "Environmental Impact", href: "#impact" },
+  { label: "Environmental Impact", href: "/impact" },
   { label: "Careers", href: "#careers" },
 ];
 
@@ -95,7 +95,7 @@ export function Footer() {
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4 lg:gap-10">
           {/* Column 1 — Brand */}
           <div className="flex flex-col gap-5">
-            <Link href="#" className="inline-block w-fit">
+            <Link href="/" className="inline-block w-fit">
               <Image
                 src={logo}
                 alt="Mega Gas"

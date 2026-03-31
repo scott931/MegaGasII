@@ -23,7 +23,7 @@ export function Hero() {
         />
       </div>
 
-      <div className="relative z-10 w-full max-w-7xl px-4 text-left sm:px-6 lg:px-8">
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-4 text-left sm:px-6 lg:px-8">
         <div className="max-w-2xl py-4 sm:py-5 md:py-6">
           <p className="mb-3 text-xs font-semibold uppercase tracking-[0.35em] text-white">
             Mega Gas
