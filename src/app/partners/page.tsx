@@ -3,7 +3,7 @@ import { Header } from "@/components/home/Header";
 import { Footer } from "@/components/home/Footer";
 import { PartnersHero } from "@/components/partners/PartnersHero";
 import { TieredPartnerLogos } from "@/components/partners/TieredPartnerLogos";
-import { PartnerSpotlights } from "@/components/partners/PartnerSpotlights";
+// import { PartnerSpotlights } from "@/components/partners/PartnerSpotlights";
 import { PartnersCTA } from "@/components/partners/PartnersCTA";
 
 export const metadata: Metadata = {
@@ -19,7 +19,7 @@ export default function PartnersPage() {
       <main className="min-h-screen bg-white pt-[92px] sm:pt-[108px]">
         <PartnersHero />
         <TieredPartnerLogos />
-        <PartnerSpotlights />
+        {/* <PartnerSpotlights /> */}
         <PartnersCTA />
       </main>
       <Footer />

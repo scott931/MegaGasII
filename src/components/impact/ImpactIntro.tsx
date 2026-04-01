@@ -11,9 +11,9 @@ export function ImpactIntro() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-4xl font-bold tracking-tight text-[#1B4332] sm:text-5xl md:text-6xl"
+          className="inline-block border-b-4 border-[#1B4332] pb-3 text-4xl font-bold tracking-tight text-[#1B4332] sm:text-5xl md:text-6xl"
         >
-          OUR IMPACT
+          COMMUNITY KITCHENS
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 12 }}
