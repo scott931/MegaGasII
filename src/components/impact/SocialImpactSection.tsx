@@ -69,26 +69,31 @@ export function SocialImpactSection() {
       className="scroll-mt-28 bg-[#F8F9FA] px-4 py-16 sm:px-6 sm:py-20 sm:scroll-mt-32 lg:px-8"
     >
       <div className="mx-auto max-w-6xl">
-        {/* Media hero — photos / video */}
+        <h2 className="text-2xl font-bold uppercase tracking-wide text-[#1B4332] sm:text-3xl">
+          Community Kitchens
+        </h2>
+
+        {/* Photos / Video */}
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.05 }}
-          className="flex min-h-[220px] w-full items-center justify-center rounded-2xl border-2 border-dashed border-[#1B4332]/25 bg-gradient-to-br from-[#1B4332]/[0.06] to-neutral-200/80 sm:min-h-[320px] md:aspect-[21/9] md:min-h-0"
+          className="mt-6 flex min-h-[220px] w-full items-center justify-center rounded-2xl border-2 border-[#1B4332]/25 bg-white sm:min-h-[320px] md:aspect-[21/9] md:min-h-0"
         >
           <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#1B4332]/70">
             Photos / Video
           </p>
         </motion.div>
 
-        {/* What is / How it works */}
+        {/* What is / How it works blocks */}
         <div className="mt-14 grid gap-10 md:grid-cols-2 md:gap-12">
           <motion.div
             initial={{ opacity: 0, y: 16 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.05 }}
+            className="rounded-xl border border-[#1B4332]/20 bg-white p-6 sm:p-8"
           >
             <h2 className="text-lg font-bold uppercase tracking-wide text-[#1B4332] sm:text-xl">
               What is the Mega Gas C.K.?
@@ -105,6 +110,7 @@ export function SocialImpactSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
+            className="rounded-xl border border-[#1B4332]/20 bg-white p-6 sm:p-8"
           >
             <h2 className="text-lg font-bold uppercase tracking-wide text-[#1B4332] sm:text-xl">
               How it works
@@ -123,12 +129,12 @@ export function SocialImpactSection() {
           initial={{ opacity: 0, y: 12 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="mt-16"
+          className="mt-16 border-t border-[#1B4332]/15 pt-12"
         >
-          <h2 className="text-center text-2xl font-bold text-[#1B4332] sm:text-3xl">
+          <h2 className="text-2xl font-bold uppercase tracking-wide text-[#1B4332] sm:text-3xl">
             Value proposition
           </h2>
-          <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4 lg:gap-5">
+          <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4 lg:gap-5">
             {valueCards.map(({ icon: Icon, title, body, featured }, i) => (
               <motion.article
                 key={title}
@@ -137,7 +143,7 @@ export function SocialImpactSection() {
                 viewport={{ once: true, margin: "-24px" }}
                 transition={{ delay: i * 0.04 }}
                 className={[
-                  "flex flex-col rounded-xl bg-white p-4 shadow-md shadow-green-900/5 sm:p-5",
+                  "flex min-h-[170px] flex-col rounded-xl bg-white p-4 shadow-md shadow-green-900/5 sm:p-5",
                   featured
                     ? "border-2 border-[#1B4332] ring-2 ring-[#1B4332]/20 ring-offset-2 ring-offset-[#F8F9FA]"
                     : "border border-green-800/10",
@@ -162,44 +168,31 @@ export function SocialImpactSection() {
           </div>
         </motion.div>
 
-        {/* Locate + map + dial */}
+        {/* Locate strip */}
         <motion.div
           initial={{ opacity: 0, y: 12 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="mt-16 border-t border-green-800/10 pt-16"
+          className="mt-16 border-t border-[#1B4332]/15 pt-12"
         >
-          <h2 className="text-center text-2xl font-bold text-[#1B4332] sm:text-3xl">
+          <h2 className="text-2xl font-bold uppercase tracking-wide text-[#1B4332] sm:text-3xl">
             Locate a kitchen near you
           </h2>
-          <div className="mt-10 grid gap-8 lg:grid-cols-2 lg:gap-10">
-            <div className="flex min-h-[240px] flex-col overflow-hidden rounded-2xl border border-green-800/10 bg-white shadow-md shadow-green-900/5">
-              <div className="flex flex-1 flex-col items-center justify-center bg-gradient-to-br from-[#e8ede9] to-[#d4ddd6] px-4 py-12">
-                <MapPin className="h-10 w-10 text-[#1B4332]/50" strokeWidth={1.25} aria-hidden />
-                <p className="mt-3 text-center text-sm font-medium text-[#1B4332]/70">
-                  Map — find a Community Kitchen in your area
-                </p>
-                <p className="mt-1 text-center text-xs text-neutral-500">
-                  Interactive map coming soon
-                </p>
-              </div>
+          <div className="mt-8 flex flex-col gap-4 rounded-xl border border-[#1B4332]/20 bg-white p-6 shadow-sm sm:flex-row sm:items-center sm:justify-between">
+            <div className="inline-flex items-center gap-3 text-[#1B4332]">
+              <MapPin className="h-5 w-5" strokeWidth={1.75} aria-hidden />
+              <span className="text-sm font-medium sm:text-base">Map</span>
             </div>
-            <div className="flex flex-col justify-center rounded-2xl border border-green-800/10 bg-white p-8 shadow-md shadow-green-900/5 sm:p-10">
-              <p className="text-lg font-semibold text-[#1B4332] sm:text-xl">
-                Call to find or register interest
-              </p>
-              <p className="mt-3 text-neutral-600">
-                Speak with our team about kitchen locations, partnerships, or bringing a
-                Community Kitchen to your neighbourhood.
-              </p>
-              <a
-                href="tel:+254701063018"
-                className="mt-6 inline-flex items-center gap-3 self-start rounded-xl bg-[#1B4332] px-5 py-3.5 text-base font-semibold text-white transition hover:bg-[#143728] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1B4332]"
-              >
-                <Phone className="h-5 w-5 shrink-0" aria-hidden />
-                +254 701 063018
-              </a>
-            </div>
+            <span className="text-sm font-semibold uppercase tracking-wide text-[#1B4332]/70">
+              -&gt;
+            </span>
+            <a
+              href="tel:+254701063018"
+              className="inline-flex items-center gap-3 rounded-lg border border-[#1B4332] px-4 py-2.5 text-sm font-semibold text-[#1B4332] transition hover:bg-[#1B4332] hover:text-white"
+            >
+              <Phone className="h-4 w-4 shrink-0" aria-hidden />
+              Dial your number
+            </a>
           </div>
         </motion.div>
       </div>

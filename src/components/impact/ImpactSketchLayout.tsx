@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const socialPoints = ["Women", "Family", "Child"];
 
@@ -23,6 +24,17 @@ export function ImpactSketchLayout() {
         >
           Impact
         </motion.h1>
+
+        <p className="mt-4 max-w-3xl text-neutral-700">
+          Mega Gas measures outcomes across people, prosperity, and planet. For our{" "}
+          <Link
+            href="/community-kitchen"
+            className="font-semibold text-[#1B4332] underline decoration-[#1B4332]/30 underline-offset-2 hover:decoration-[#1B4332]"
+          >
+            Community Kitchens
+          </Link>{" "}
+          program, see the dedicated page.
+        </p>
 
         <div className="mt-10 space-y-10">
           <motion.section

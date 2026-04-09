@@ -13,6 +13,7 @@ const quickLinks = [
   { label: "Partners", href: "/partners" },
   { label: "Our Solution", href: "#solution" },
   { label: "Environmental Impact", href: "/impact" },
+  { label: "Community Kitchen", href: "/community-kitchen" },
   { label: "Contact", href: "/contact" },
   { label: "Careers", href: "#careers" },
 ];
