@@ -7,7 +7,7 @@ import { ImpactSketchLayout } from "@/components/impact/ImpactSketchLayout";
 export const metadata: Metadata = {
   title: "Our Impact | Mega Gas Alternative Energy",
   description:
-    "Social, economic, and environmental impact of Mega Gas—households, jobs, forests, and measurable outcomes.",
+    "Mega Gas impact across social, economic, environmental, and systems dimensions—clean cooking, jobs, circular energy, and resilient urban communities.",
 };
 
 export default function ImpactPage() {

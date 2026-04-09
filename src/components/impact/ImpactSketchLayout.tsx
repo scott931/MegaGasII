@@ -1,16 +1,55 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Link from "next/link";
 
-const socialPoints = ["Women", "Family", "Child"];
+const socialBullets = [
+  "15,000+ families accessing clean cooking energy",
+  "Reduced indoor air pollution and respiratory illnesses",
+  "Safer cooking environments with no open flame risks",
+  "Community kitchens as hubs for social interaction and shared experiences",
+  "Improved dignity and quality of life for low-income households",
+];
+
+const economicBullets = [
+  "Cooking at just $0.02 per hour—affordable for low-income households",
+  "4,000+ small businesses supported (vendors, caterers, schools)",
+  "Hundreds of jobs created across waste collection, sorting, and kitchen operations",
+  "Income generation opportunities for women and youth",
+  "Reduced household spending on cooking fuel",
+];
+
+const environmentalBullets = [
+  "250+ tons of plastic waste recycled monthly",
+  "Reduced open burning of waste in informal settlements",
+  "12,164+ tons of CO₂ emissions avoided (ImpactForecast)",
+  "Reduced reliance on charcoal, helping prevent deforestation",
+  "Integration of circular energy systems: plastic-to-gas, biogas, and solar",
+];
+
+const systemsBullets = [
+  "6 community kitchens operating as local resilience hubs",
+  "100+ women waste pickers empowered with stable incomes",
+  "Increased adoption of digital payments through Mega Gas Wallet (USSD)",
+  "Behavior change in waste management and clean energy use",
+  "Strengthened circular economy ecosystems in urban communities",
+];
 
 const numberCards = [
-  { value: "15k+", label: "Households reached" },
-  { value: "500+", label: "Community partners" },
-  { value: "100+", label: "Safety trainings" },
-  { value: "40%", label: "Avg. fuel cost reduction" },
+  { value: "15,000+", label: "Families accessing clean cooking energy" },
+  { value: "4,000+", label: "Small businesses supported" },
+  { value: "250+", label: "Tons of plastic waste recycled monthly" },
+  { value: "12,164+", label: "Tons of CO₂ emissions avoided" },
 ];
+
+function BulletList({ items }: { items: string[] }) {
+  return (
+    <ul className="mt-5 list-disc space-y-2 pl-5 text-neutral-700">
+      {items.map((item) => (
+        <li key={item}>{item}</li>
+      ))}
+    </ul>
+  );
+}
 
 export function ImpactSketchLayout() {
   return (
@@ -26,14 +65,9 @@ export function ImpactSketchLayout() {
         </motion.h1>
 
         <p className="mt-4 max-w-3xl text-neutral-700">
-          Mega Gas measures outcomes across people, prosperity, and planet. For our{" "}
-          <Link
-            href="/community-kitchen"
-            className="font-semibold text-[#1B4332] underline decoration-[#1B4332]/30 underline-offset-2 hover:decoration-[#1B4332]"
-          >
-            Community Kitchens
-          </Link>{" "}
-          program, see the dedicated page.
+          At Mega Gas, we are transforming how communities cook, earn, and live. Our model
+          delivers measurable impact across social, economic, environmental, and systemic
+          dimensions—creating cleaner, healthier, and more resilient urban communities.
         </p>
 
         <div className="mt-10 space-y-10">
@@ -43,21 +77,12 @@ export function ImpactSketchLayout() {
             viewport={{ once: true }}
             className="rounded-2xl border border-[#1B4332]/20 bg-[#f9fbf9] p-6 sm:p-8"
           >
-            <h2 className="text-2xl font-semibold text-[#1B4332] sm:text-3xl">Social</h2>
+            <h2 className="text-2xl font-semibold text-[#1B4332] sm:text-3xl">Social Impact</h2>
             <p className="mt-3 max-w-3xl text-neutral-700">
-              We focus on social outcomes that improve day-to-day life in homes and
-              communities.
+              We improve everyday life by making clean cooking safe, accessible, and
+              community-driven.
             </p>
-            <ul className="mt-5 grid gap-3 sm:grid-cols-3">
-              {socialPoints.map((point) => (
-                <li
-                  key={point}
-                  className="rounded-xl border border-[#1B4332]/25 bg-white px-4 py-3 text-sm font-medium text-[#1B4332]"
-                >
-                  {point}
-                </li>
-              ))}
-            </ul>
+            <BulletList items={socialBullets} />
           </motion.section>
 
           <motion.section
@@ -67,11 +92,11 @@ export function ImpactSketchLayout() {
             transition={{ delay: 0.05 }}
             className="rounded-2xl border border-[#1B4332]/20 p-6 sm:p-8"
           >
-            <h2 className="text-2xl font-semibold text-[#1B4332] sm:text-3xl">Economic</h2>
+            <h2 className="text-2xl font-semibold text-[#1B4332] sm:text-3xl">Economic Impact</h2>
             <p className="mt-3 max-w-3xl text-neutral-700">
-              Affordable and reliable clean cooking lowers fuel spend, protects incomes, and
-              supports local livelihoods.
+              We unlock income, reduce costs, and power local economies.
             </p>
+            <BulletList items={economicBullets} />
           </motion.section>
 
           <motion.section
@@ -82,13 +107,44 @@ export function ImpactSketchLayout() {
             className="rounded-2xl border border-[#1B4332]/20 p-6 sm:p-8"
           >
             <h2 className="text-2xl font-semibold text-[#1B4332] sm:text-3xl">
-              Environmental
+              Environmental Impact
             </h2>
             <p className="mt-3 max-w-3xl text-neutral-700">
-              Shifting away from charcoal and firewood helps reduce deforestation and indoor
-              air pollution.
+              We turn waste into energy and reduce climate harm at scale.
             </p>
+            <BulletList items={environmentalBullets} />
           </motion.section>
+
+          <motion.section
+            initial={{ opacity: 0, y: 12 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.12 }}
+            className="rounded-2xl border border-[#1B4332]/20 p-6 sm:p-8"
+          >
+            <h2 className="text-2xl font-semibold text-[#1B4332] sm:text-3xl">
+              Systems & Community Impact
+            </h2>
+            <p className="mt-3 max-w-3xl text-neutral-700">
+              We go beyond energy—transforming behavior, systems, and access.
+            </p>
+            <BulletList items={systemsBullets} />
+          </motion.section>
+
+          <motion.p
+            initial={{ opacity: 0, y: 12 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.14 }}
+            className="mt-10 max-w-3xl text-neutral-700"
+          >
+            <span className="font-semibold text-[#1B4332]">Our theory of change — </span>
+            We are embedded in households and communities through centralized kitchens, making
+            clean cooking part of daily life while targeting knowledge, attitudes, and practices;
+            by showing plastic waste as clean energy we shift perceptions and reduce open burning;
+            sustainable impact pairs hardware (technology) with software (awareness, behavior
+            change, and mindset) for adoption, ownership, and lasting environmental change.
+          </motion.p>
         </div>
 
         <motion.section
@@ -109,6 +165,21 @@ export function ImpactSketchLayout() {
               </article>
             ))}
           </div>
+        </motion.section>
+
+        <motion.section
+          initial={{ opacity: 0, y: 12 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="mt-10 rounded-2xl border border-[#1B4332]/20 p-6 sm:p-8"
+        >
+          <h2 className="text-2xl font-semibold text-[#1B4332] sm:text-3xl">
+            Closing Statement
+          </h2>
+          <p className="mt-5 max-w-3xl text-neutral-700">
+            We are not just providing energy. We are building cleaner cities, stronger
+            communities, and a future where waste becomes opportunity.
+          </p>
         </motion.section>
       </div>
     </section>
