@@ -7,32 +7,32 @@ const cards = [
   {
     n: 1,
     icon: Leaf,
-    title: "Sustainability-first",
-    text: "Programs that track emissions, reduce flaring, and invest in reforestation.",
+    title: "Closing the Plastic Waste Loop",
+    text: "We transform non-recyclable plastic waste into clean cooking gas, reducing pollution while creating a circular, sustainable energy system.",
   },
   {
     n: 2,
     icon: Shield,
-    title: "Safety & compliance",
-    text: "Rigorous inspections, transparent audits, and workforce certification.",
+    title: "Higher Energy Efficiency",
+    text: "Our gas delivers 25% higher calorific value than conventional alternatives, ensuring faster, more efficient cooking.",
   },
   {
     n: 3,
     icon: Zap,
-    title: "Reliable supply",
-    text: "Redundant routing and monitoring so businesses and homes stay powered.",
+    title: "Community-Centered Model",
+    text: "Our community kitchens are hubs of social and economic activity, supporting small businesses and strengthening communities.",
   },
   {
     n: 4,
     icon: Globe2,
-    title: "Pan-African reach",
-    text: "Partnerships that scale best practices across regions and regulatory regimes.",
+    title: "Safety First",
+    text: "Mega Gas has no risk of explosion, as it does not ignite in open air, ensuring a safe cooking environment.",
   },
   {
     n: 5,
     icon: Users,
-    title: "Community-led",
-    text: "Local hiring, skills programs, and shared governance on major projects.",
+    title: "Ultra-Affordable Access",
+    text: "Clean cooking at just $0.02 per hour, with no upfront costs, making it accessible to low-income households.",
   },
 ];
 
@@ -64,7 +64,8 @@ export function WhyChoose() {
           Why Choose Mega Gas
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-center text-neutral-700">
-          Five pillars that guide how we build, operate, and grow with you.
+          Five reasons communities choose Mega Gas for clean, safe, and
+          affordable cooking energy.
         </p>
 
         <motion.ul

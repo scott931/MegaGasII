@@ -25,22 +25,18 @@ export function OurSolution() {
               Our Solution
             </p>
             <h2 className="mt-3 text-3xl font-bold tracking-tight text-brand-forest sm:text-4xl">
-              Integrated gas infrastructure for a lower-carbon footprint
+              Community kitchens powered by renewable energy for inclusive clean cooking
             </h2>
             <p className="mt-6 leading-relaxed text-neutral-700">
-              Mega Gas designs and operates distribution networks that prioritize leak
-              prevention, smart metering, and data-driven maintenance. Our teams work
-              alongside regulators and communities to keep service dependable and
-              accountable.
+              Mega Gas designs and operates community kitchens in informal
+              settlements, enabling households to cook safely using clean energy
+              without upfront costs.
             </p>
             <p className="mt-4 leading-relaxed text-neutral-700">
-              From industrial supply to urban residential lines, we align project
-              delivery with environmental safeguards—so growth in energy demand does
-              not come at the cost of air quality or water security.
-            </p>
-            <p className="mt-4 leading-relaxed text-neutral-700">
-              Every engagement includes clear reporting, safety training, and pathways
-              to adopt cleaner blends as technology and policy evolve.
+              Our hybrid system integrates plastic-to-gas, biogas, and
+              solar-powered cooking. Through our PAYGO model and Mega Gas Wallet
+              (USSD-based), users can pay as little as $0.02 per hour, making
+              clean cooking accessible to all.
             </p>
           </div>
 

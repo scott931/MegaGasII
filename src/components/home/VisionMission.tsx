@@ -9,9 +9,11 @@ export function VisionMission() {
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <p className="mx-auto max-w-3xl text-center text-lg leading-relaxed text-neutral-700 sm:text-xl">
-          We bridge reliable energy access with environmental responsibility—building
-          infrastructure that serves people today while protecting ecosystems for
-          generations to come.
+          Mega Gas provides clean and affordable cooking energy through community
+          kitchens powered by renewable and circular energy systems. By converting
+          plastic and organic waste into clean gas, we deliver accessible cooking
+          solutions to low-income communities while reducing pollution and
+          improving livelihoods.
         </p>
 
         <div className="mt-14 grid grid-cols-1 items-stretch gap-6 md:grid-cols-3 md:gap-6 lg:gap-8">
@@ -21,9 +23,9 @@ export function VisionMission() {
             </div>
             <h2 className="text-xl font-bold text-brand-forest">Vision</h2>
             <p className="mt-3 leading-relaxed text-neutral-700">
-              A future where clean energy flows equitably—where African cities and
-              rural communities thrive on sustainable power without compromising the
-              land we inherit.
+              To impact millions of lives with our clean cooking gas. We envision
+              a future where every household can access safe, affordable, and
+              sustainable cooking energy.
             </p>
           </article>
 
@@ -47,8 +49,10 @@ export function VisionMission() {
             </div>
             <h2 className="text-xl font-bold text-brand-forest">Mission</h2>
             <p className="mt-3 leading-relaxed text-neutral-700">
-              Deliver safe, efficient gas solutions with transparent operations,
-              local partnerships, and measurable reductions in emissions and waste.
+              To democratize access to clean cooking energy through innovation and
+              research. We are committed to breaking barriers to energy access by
+              designing affordable, scalable, and inclusive solutions that reach
+              underserved communities.
             </p>
           </article>
         </div>

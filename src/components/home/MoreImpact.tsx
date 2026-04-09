@@ -4,54 +4,29 @@ import Image from "next/image";
 
 const blocks = [
   {
-    metric: "10k+",
-    label: "Trees planted",
+    metric: "Hard Work",
+    label: "We are driven by action and results, working tirelessly to deliver impact at scale.",
     src: "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&q=80",
   },
   {
-    metric: "35%",
-    label: "Emissions reduced",
+    metric: "Integrity",
+    label: "We operate with transparency, accountability, and trust in everything we do.",
     src: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&q=80",
   },
   {
-    metric: "120+",
-    label: "Communities served",
+    metric: "Commitment",
+    label: "We are dedicated to our mission, our communities, and long-term sustainability.",
     src: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80",
   },
   {
-    metric: "48MW",
-    label: "Clean capacity",
+    metric: "Resilience",
+    label: "We adapt, innovate, and persist in solving complex energy and environmental challenges.",
     src: "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=800&q=80",
   },
   {
-    metric: "2.4M",
-    label: "Tons CO₂ offset",
+    metric: "Compassion",
+    label: "We design solutions with empathy, putting the needs of our communities first.",
     src: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80",
-  },
-  {
-    metric: "500+",
-    label: "Local jobs",
-    src: "https://images.unsplash.com/photo-1581092160562-40aa08ec7889?w=800&q=80",
-  },
-  {
-    metric: "18",
-    label: "Partner regions",
-    src: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=800&q=80",
-  },
-  {
-    metric: "99.2%",
-    label: "Uptime target",
-    src: "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=800&q=80",
-  },
-  {
-    metric: "24/7",
-    label: "Monitoring",
-    src: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80",
-  },
-  {
-    metric: "12",
-    label: "R&D pilots",
-    src: "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=800&q=80",
   },
 ];
 
@@ -63,10 +38,10 @@ export function MoreImpact() {
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <h2 className="text-center text-3xl font-bold tracking-tight text-brand-forest sm:text-4xl">
-          More Impact in Still
+          Our Values
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-center text-neutral-700">
-          Outcomes we measure and report—environmental, social, and operational.
+          The principles that shape how we serve communities every day.
         </p>
 
         <ul className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5">

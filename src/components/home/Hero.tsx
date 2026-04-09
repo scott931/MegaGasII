@@ -29,11 +29,13 @@ export function Hero() {
             Mega Gas
           </p>
           <h1 className="text-balance text-3xl font-bold tracking-tight text-white drop-shadow-md sm:text-4xl md:text-5xl lg:text-6xl">
-            Clean Energy. Sustainable Future.
+            Community Kitchens Powered by Renewable Energy
           </h1>
           <p className="mt-5 max-w-xl text-base text-white drop-shadow sm:text-lg">
-            Powering communities across the continent with responsible gas solutions
-            and a vision rooted in stewardship and innovation.
+            <strong>Clean Cooking for Every Community.</strong>
+            <br />
+            Mega Gas provides affordable, reliable clean cooking energy through
+            community kitchens powered by renewable and circular energy systems.
           </p>
           <a
             id="hero-cta"
