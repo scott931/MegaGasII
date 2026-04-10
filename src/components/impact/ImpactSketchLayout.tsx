@@ -64,7 +64,7 @@ export function ImpactSketchLayout() {
           Impact
         </motion.h1>
 
-        <p className="mt-4 max-w-3xl text-neutral-700">
+        <p className="mt-4 w-full max-w-none text-neutral-700">
           At Mega Gas, we are transforming how communities cook, earn, and live. Our model
           delivers measurable impact across social, economic, environmental, and systemic
           dimensions—creating cleaner, healthier, and more resilient urban communities.
@@ -78,7 +78,7 @@ export function ImpactSketchLayout() {
             className="rounded-2xl border border-[#1B4332]/20 bg-[#f9fbf9] p-6 sm:p-8"
           >
             <h2 className="text-2xl font-semibold text-[#1B4332] sm:text-3xl">Social Impact</h2>
-            <p className="mt-3 max-w-3xl text-neutral-700">
+            <p className="mt-3 w-full max-w-none text-neutral-700">
               We improve everyday life by making clean cooking safe, accessible, and
               community-driven.
             </p>
@@ -93,7 +93,7 @@ export function ImpactSketchLayout() {
             className="rounded-2xl border border-[#1B4332]/20 p-6 sm:p-8"
           >
             <h2 className="text-2xl font-semibold text-[#1B4332] sm:text-3xl">Economic Impact</h2>
-            <p className="mt-3 max-w-3xl text-neutral-700">
+            <p className="mt-3 w-full max-w-none text-neutral-700">
               We unlock income, reduce costs, and power local economies.
             </p>
             <BulletList items={economicBullets} />
@@ -109,7 +109,7 @@ export function ImpactSketchLayout() {
             <h2 className="text-2xl font-semibold text-[#1B4332] sm:text-3xl">
               Environmental Impact
             </h2>
-            <p className="mt-3 max-w-3xl text-neutral-700">
+            <p className="mt-3 w-full max-w-none text-neutral-700">
               We turn waste into energy and reduce climate harm at scale.
             </p>
             <BulletList items={environmentalBullets} />
@@ -125,26 +125,40 @@ export function ImpactSketchLayout() {
             <h2 className="text-2xl font-semibold text-[#1B4332] sm:text-3xl">
               Systems & Community Impact
             </h2>
-            <p className="mt-3 max-w-3xl text-neutral-700">
+            <p className="mt-3 w-full max-w-none text-neutral-700">
               We go beyond energy—transforming behavior, systems, and access.
             </p>
             <BulletList items={systemsBullets} />
           </motion.section>
 
-          <motion.p
+          <motion.section
             initial={{ opacity: 0, y: 12 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.14 }}
-            className="mt-10 max-w-3xl text-neutral-700"
+            className="rounded-2xl border border-[#1B4332]/20 bg-[#f9fbf9] p-6 sm:p-8"
           >
-            <span className="font-semibold text-[#1B4332]">Our theory of change — </span>
-            We are embedded in households and communities through centralized kitchens, making
-            clean cooking part of daily life while targeting knowledge, attitudes, and practices;
-            by showing plastic waste as clean energy we shift perceptions and reduce open burning;
-            sustainable impact pairs hardware (technology) with software (awareness, behavior
-            change, and mindset) for adoption, ownership, and lasting environmental change.
-          </motion.p>
+            <h2 className="text-2xl font-semibold text-[#1B4332] sm:text-3xl">
+              Our Theory of Change
+            </h2>
+            <div className="mt-5 w-full max-w-none space-y-4 text-neutral-700">
+              <p>
+                We are embedded within both households and the broader community through our
+                centralized kitchens—making clean cooking part of daily life and shared
+                experiences. Our approach targets knowledge, attitudes, and practices.
+              </p>
+              <p>
+                By demonstrating the value of plastic waste as a clean energy resource, we shift
+                perceptions around waste management and reduce harmful practices like open
+                burning.
+              </p>
+              <p>
+                We believe sustainable impact happens when hardware (technology) is paired with
+                the right software (awareness, behavior change, and mindset)—ensuring long-term
+                adoption, community ownership, and lasting environmental change.
+              </p>
+            </div>
+          </motion.section>
         </div>
 
         <motion.section
@@ -176,7 +190,7 @@ export function ImpactSketchLayout() {
           <h2 className="text-2xl font-semibold text-[#1B4332] sm:text-3xl">
             Closing Statement
           </h2>
-          <p className="mt-5 max-w-3xl text-neutral-700">
+          <p className="mt-5 w-full max-w-none text-neutral-700">
             We are not just providing energy. We are building cleaner cities, stronger
             communities, and a future where waste becomes opportunity.
           </p>
