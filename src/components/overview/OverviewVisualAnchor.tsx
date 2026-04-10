@@ -31,20 +31,27 @@ export function OverviewVisualAnchor() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="flex flex-col items-center gap-4 sm:flex-row sm:gap-5"
+            className="flex w-full max-w-lg flex-col items-center gap-5"
           >
-            <a
-              href="mailto:info@megagasalternativeenergy.co.ke?subject=Technical%20datasheet%20request"
-              className="inline-flex min-h-[48px] items-center justify-center rounded-full bg-white px-8 text-sm font-semibold text-brand-forest shadow-lg transition hover:bg-white/95"
-            >
-              Download technical datasheet
-            </a>
-            <Link
-              href="/partners"
-              className="inline-flex min-h-[48px] items-center justify-center rounded-full border-2 border-white bg-white/10 px-8 text-sm font-semibold text-white backdrop-blur-sm transition hover:bg-white/20"
-            >
-              Partner with us
-            </Link>
+            <p className="text-center text-xs font-semibold uppercase tracking-[0.2em] text-white/85">
+              Call to action
+            </p>
+            <div className="flex w-full flex-col items-stretch gap-3 sm:flex-row sm:justify-center sm:gap-4">
+              <Link
+                href="/partners"
+                className="inline-flex min-h-[48px] flex-1 items-center justify-center rounded-full bg-white px-6 text-sm font-semibold text-brand-forest shadow-lg transition hover:bg-white/95 sm:flex-none sm:px-8"
+                title="Join us in scaling clean cooking across communities."
+              >
+                Partner with us
+              </Link>
+              <Link
+                href="/contact?topic=stay-updated"
+                className="inline-flex min-h-[48px] flex-1 items-center justify-center rounded-full border-2 border-white bg-white/10 px-6 text-sm font-semibold text-white backdrop-blur-sm transition hover:bg-white/20 sm:flex-none sm:px-8"
+                title="Follow our journey as we transform waste into energy."
+              >
+                Stay updated
+              </Link>
+            </div>
           </motion.div>
         </div>
       </div>

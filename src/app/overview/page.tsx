@@ -8,7 +8,7 @@ import { PillarGrid } from "@/components/overview/PillarGrid";
 export const metadata: Metadata = {
   title: "Overview | Mega Gas Alternative Energy",
   description:
-    "Mega Gas technology, distribution, sustainability, and community—technical overview of the clean gas ecosystem.",
+    "Waste-to-energy clean cooking: community kitchens, PAYGO access, hybrid thermal and biogas systems, and inclusive design for informal settlements.",
 };
 
 export default function OverviewPage() {

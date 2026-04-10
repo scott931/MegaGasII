@@ -3,10 +3,23 @@
 import { motion } from "framer-motion";
 
 const specs = [
-  { label: "Pressure & safety", detail: "Tested cylinders and regulators; leak checks and staff certification at every handoff." },
-  { label: "Caloric efficiency", detail: "Optimized burn profile for common household stoves—less fuel wasted as unused heat." },
-  { label: "Burn time & stability", detail: "Consistent flame duration per fill, with predictable consumption for monthly budgeting." },
-  { label: "Emissions profile", detail: "Lower particulate load versus solid fuels—measurably cleaner indoor air during cooking." },
+  {
+    label: "Safety first",
+    detail:
+      "No risk of explosion in open air, with controlled systems and trained operators.",
+  },
+  {
+    label: "Energy efficiency",
+    detail: "25% higher calorific value for faster, more efficient cooking.",
+  },
+  {
+    label: "Reliable supply",
+    detail: "Hybrid energy sources ensure uninterrupted access.",
+  },
+  {
+    label: "Clean emissions",
+    detail: "Significantly lower indoor air pollution compared to traditional fuels.",
+  },
 ];
 
 export function OverviewDeepDive() {
@@ -29,33 +42,65 @@ export function OverviewDeepDive() {
 
           <div className="mt-10 space-y-5 text-base leading-relaxed text-neutral-700">
             <p>
-              The Mega Gas ecosystem begins where others see waste: organic material that can be
-              diverted from dumps and channels into controlled thermal processing. Our cracking
-              trains are designed for steady output—gas that meets specification before it ever
-              touches a cylinder—so what reaches the kitchen is predictable, not experimental.
+              Mega Gas starts where others see a problem—waste and energy poverty—and turns it into
+              opportunity. We collect plastic and organic waste from communities and convert it into
+              clean cooking gas through controlled, safe processing systems. This ensures reliable,
+              efficient energy ready for everyday use.
             </p>
             <p>
-              From the plant, product moves into inventory and quality checks, then onto our
-              distribution fleet. Routes are planned for coverage and safety: trained drivers,
-              documented handovers, and retail partners who understand how to support first-time
-              gas users. The goal is simple—clean blue flame, on demand, without the smoke burden
-              of charcoal or wood.
+              Instead of distributing gas through expensive cylinders, we bring energy directly to
+              people through{" "}
+              <strong className="font-bold text-neutral-900"> community kitchens</strong>,
+              removing upfront costs and enabling access through
+              a flexible PAYGO model.
             </p>
             <p>
-              Sustainability is not a slide in a deck; it is the loop we operate every day.
-              Feedstock that would decay and emit methane is instead converted to useful energy;
-              households that once drove deforestation for fuel can stabilize their monthly energy
-              spend while breathing easier indoors.
+              We are deeply embedded within both households and the broader community. Our
+              kitchens serve not only as cooking spaces, but as centers of daily life—where families
+              gather, businesses operate, and social interactions happen. This is where our biggest
+              breakthrough lies.
             </p>
             <p>
-              Community sits at the center: pricing structures, education, and service channels
-              built for real neighborhoods—not laboratory ideals. Mega Gas is infrastructure you
-              can see, measure, and trust—from sourcing through the last mile to the flame on the
-              stove.
+              Our model goes beyond energy delivery. It targets the{" "}
+              <strong className="font-bold text-neutral-900">knowledge, attitudes, and practices</strong>{" "}
+              of our users and host communities. By demonstrating the value of plastic
+              waste as a clean energy resource, we shift perceptions around waste management and
+              environmental responsibility.
+            </p>
+            <p>
+              We combine{" "}
+              <strong className="font-bold text-neutral-900">hard infrastructure (clean energy systems)</strong>{" "}
+              with{" "}
+              <strong className="font-bold text-neutral-900">
+                soft infrastructure (awareness, behavior change, and community engagement)
+              </strong>
+              —ensuring that climate action becomes part of everyday conversations and decisions.
+            </p>
+            <p>
+              Clean cooking becomes more than a service—it becomes{" "}
+              <strong className="font-bold text-neutral-900">
+                a conversation starter, a learning platform, and a pathway to long-term behavior change
+              </strong>.
+            </p>
+            <p>
+              As more people adopt our solution, we are not only serving today&apos;s market—we are
+              actively building the future market by creating informed, empowered communities that
+              demand and sustain clean energy solutions.
+            </p>
+            <p>
+              At the core, Mega Gas is not just energy infrastructure—it is a system designed to
+              build{" "}
+              <strong className="font-bold text-neutral-900">
+                trust, social capital, and long-term climate resilience at scale
+              </strong>.
             </p>
           </div>
 
-          <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2">
+          <h3 className="mt-14 text-center text-xl font-bold tracking-tight text-[#1B4332] sm:text-2xl">
+            Performance &amp; safety
+          </h3>
+
+          <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
             {specs.map((s, i) => (
               <motion.div
                 key={s.label}

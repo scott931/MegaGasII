@@ -1,32 +1,45 @@
 "use client";
 
-import { Cog, Heart, Leaf, Truck } from "lucide-react";
+import type { ReactNode } from "react";
+import { Cog, Recycle, Store, Users } from "lucide-react";
 import { motion } from "framer-motion";
 
-const pillars = [
+const pillars: {
+  title: string;
+  icon: typeof Cog;
+  summary: ReactNode;
+}[] = [
   {
     title: "Technology",
     icon: Cog,
     summary:
-      "Thermal cracking converts organic feedstock into clean, high-quality gas—engineered for consistent pressure and safe combustion.",
+      "We convert non-recyclable plastic and organic waste into clean cooking gas using advanced thermal cracking and biogas systems. Our hybrid energy model ensures consistent, safe, and high-quality energy for everyday use.",
   },
   {
-    title: "Distribution",
-    icon: Truck,
-    summary:
-      "A last-mile logistics network brings cylinders and refills to neighborhoods across Nairobi—scheduled routes and trained handlers.",
+    title: "Access & Distribution",
+    icon: Store,
+    summary: (
+      <>
+        We deliver energy through{" "}
+        <strong className="font-bold text-[#1B4332] transition-colors group-hover:text-white">
+          community kitchens located within informal settlements,
+        </strong>{" "}
+        eliminating the need for costly LPG cylinders. Users walk in, cook, and pay through our
+        PAYGO system using the Mega Gas Wallet.
+      </>
+    ),
   },
   {
-    title: "Sustainability",
-    icon: Leaf,
+    title: "Circular Sustainability",
+    icon: Recycle,
     summary:
-      "A circular waste-to-energy loop: divert organic refuse from landfills, recover energy, and reduce pressure on forests.",
+      "Our model closes the waste loop—transforming plastic and organic waste into clean energy. This reduces pollution, prevents open burning, and lowers reliance on charcoal, protecting forests and improving air quality.",
   },
   {
-    title: "Community",
-    icon: Heart,
+    title: "Community-Centered Design",
+    icon: Users,
     summary:
-      "Affordable, reliable energy for households and small businesses—pricing and education designed for inclusive access.",
+      "We build solutions for real communities—supporting households, food vendors, schools, and local entrepreneurs through affordable and inclusive energy access.",
   },
 ];
 
@@ -51,6 +64,9 @@ export function PillarGrid() {
   return (
     <section className="bg-white px-4 py-14 sm:px-6 sm:py-16 lg:px-8">
       <div className="mx-auto max-w-7xl">
+        <p className="mb-8 text-center text-sm font-semibold uppercase tracking-[0.2em] text-[#1B4332]/70">
+          Our approach
+        </p>
         <motion.div
           variants={container}
           initial="hidden"

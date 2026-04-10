@@ -36,25 +36,25 @@ export function OurStoryHero() {
             transition={{ duration: 0.55, delay: 0.08, ease: [0.22, 1, 0.36, 1] }}
           >
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#1B4332]/70">
-              About Us
+              About Mega Gas
             </p>
             <h1 className="mt-3 text-3xl font-bold tracking-tight text-[#1B4332] sm:text-4xl md:text-5xl">
               Our Story
             </h1>
             <div className="mt-8 space-y-5 text-lg leading-relaxed text-neutral-600">
               <p>
-                It began with a simple observation: the energy crisis in Nairobi was
-                costing more than just money—it was costing our environment. Families
-                relied on charcoal and wood for daily cooking, driving deforestation,
-                indoor smoke, and a cycle of expense that hit low-income households
-                hardest.
+                Mega Gas began from lived experience. I grew up in Soweto, one of the
+                largest informal settlements in Nairobi, in a family of nine children.
+                Every day, my siblings and I walked long distances to collect firewood.
+                When we returned home and cooking began, our house would fill with thick
+                smoke. I watched my mother struggle to breathe, suffering from severe
+                respiratory illnesses caused by indoor air pollution.
               </p>
               <p>
-                Mega Gas was founded to break that cycle—delivering affordable, cleaner
-                gas through reliable distribution, safety-first operations, and
-                technology that scales with the communities we serve. What started as a
-                local response has grown into a mission to power homes without
-                compromising the air we breathe or the land we depend on.
+                This was not just my family&apos;s reality—it was the reality of our
+                entire community. Families were trapped in energy poverty, relying on
+                harmful fuels that damaged their health, environment, and finances. I
+                knew there had to be a better way. That is how Mega Gas was born.
               </p>
             </div>
           </motion.div>
