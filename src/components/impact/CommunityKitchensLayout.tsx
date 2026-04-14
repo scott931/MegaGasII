@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowRight, Leaf, MapPin, Phone, Recycle, Users } from "lucide-react";
 
@@ -89,10 +90,15 @@ export function CommunityKitchensLayout() {
             viewport={{ once: true }}
             className="mt-10 overflow-hidden rounded-3xl border border-emerald-500/10 bg-white shadow-sm"
           >
-            <div className="flex h-[320px] items-center justify-center bg-gradient-to-br from-[#1B4332]/10 to-[#1B4332]/5 sm:h-[380px] md:h-96">
-              <p className="text-xs font-semibold uppercase tracking-[0.4em] text-[#1B4332]/70 sm:text-sm">
-                Photos / Video
-              </p>
+            <div className="relative h-[320px] bg-gradient-to-br from-[#1B4332]/10 to-[#1B4332]/5 sm:h-[380px] md:h-96">
+              <Image
+                src="/images/1000388818.jpg.jpeg"
+                alt="Community kitchen activity"
+                fill
+                className="object-cover"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 896px, 1152px"
+                priority
+              />
             </div>
           </motion.section>
 

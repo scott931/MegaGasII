@@ -6,7 +6,7 @@ import { Play } from "lucide-react";
 import { useState } from "react";
 
 const poster =
-  "/images/local-01.jpg";
+  "/images/fwdpitchdeckredesigning/1000388829.jpg.jpeg";
 
 export function FeaturedVideoTestimony() {
   const [playing, setPlaying] = useState(false);

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 
 const imgSrc =
-  "/images/local-09.jpg";
+  "/images/fwdpitchdeckredesigning/1_1772050520_1000338869.jpg";
 
 export function OverviewVisualAnchor() {
   return (

@@ -6,27 +6,27 @@ const blocks = [
   {
     metric: "Hard Work",
     label: "We are driven by action and results, working tirelessly to deliver impact at scale.",
-    src: "/images/local-13.jpg",
+    src: "/images/fwdpitchdeckredesigning/IMG-20241115-WA0005.jpg.jpeg",
   },
   {
     metric: "Integrity",
     label: "We operate with transparency, accountability, and trust in everything we do.",
-    src: "/images/local-14.jpg",
+    src: "/images/fwdpitchdeckredesigning/IMG-20241115-WA0007.jpg.jpeg",
   },
   {
     metric: "Commitment",
     label: "We are dedicated to our mission, our communities, and long-term sustainability.",
-    src: "/images/local-15.jpg",
+    src: "/images/fwdpitchdeckredesigning/IMG-20241115-WA0009.jpg.jpeg",
   },
   {
     metric: "Resilience",
     label: "We adapt, innovate, and persist in solving complex energy and environmental challenges.",
-    src: "/images/local-16.jpg",
+    src: "/images/fwdpitchdeckredesigning/IMG-20241115-WA0011.jpg.jpeg",
   },
   {
     metric: "Compassion",
     label: "We design solutions with empathy, putting the needs of our communities first.",
-    src: "/images/local-17.jpg",
+    src: "/images/fwdpitchdeckredesigning/IMG-20241115-WA0013.jpg.jpeg",
   },
 ];
 
@@ -34,52 +34,52 @@ const moreImpactStills = [
   {
     value: "10k+",
     label: "Trees planted",
-    src: "/images/local-18.jpg",
+    src: "/images/fwdpitchdeckredesigning/1000388833.jpg.jpeg",
   },
   {
     value: "35%",
     label: "Emissions reduced",
-    src: "/images/local-19.jpg",
+    src: "/images/fwdpitchdeckredesigning/1000388856.jpg.jpeg",
   },
   {
     value: "120+",
     label: "Communities served",
-    src: "/images/local-15.jpg",
+    src: "/images/fwdpitchdeckredesigning/IMG-20241115-WA0009.jpg.jpeg",
   },
   {
     value: "48MW",
     label: "Clean capacity",
-    src: "/images/local-16.jpg",
+    src: "/images/fwdpitchdeckredesigning/IMG-20241115-WA0011.jpg.jpeg",
   },
   {
     value: "2.4M",
     label: "Tons CO₂ offset",
-    src: "/images/local-01.jpg",
+    src: "/images/fwdpitchdeckredesigning/1000388829.jpg.jpeg",
   },
   {
     value: "500+",
     label: "Local jobs",
-    src: "/images/local-02.jpg",
+    src: "/images/fwdpitchdeckredesigning/1000388833.jpg.jpeg",
   },
   {
     value: "18",
     label: "Partner regions",
-    src: "/images/local-03.jpg",
+    src: "/images/fwdpitchdeckredesigning/1000388856.jpg.jpeg",
   },
   {
     value: "99.2%",
     label: "Uptime target",
-    src: "/images/local-14.jpg",
+    src: "/images/fwdpitchdeckredesigning/IMG-20241115-WA0007.jpg.jpeg",
   },
   {
     value: "24/7",
     label: "Monitoring",
-    src: "/images/local-04.jpg",
+    src: "/images/fwdpitchdeckredesigning/1000388880.jpg.jpeg",
   },
   {
     value: "12",
     label: "R&D pilots",
-    src: "/images/local-05.jpg",
+    src: "/images/fwdpitchdeckredesigning/1000388888.jpg.jpeg",
   },
 ];
 

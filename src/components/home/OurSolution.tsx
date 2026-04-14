@@ -46,7 +46,7 @@ export function OurSolution() {
               className="absolute inset-x-0 top-[-8%] h-[116%] w-full"
             >
               <Image
-                src="/images/local-13.jpg"
+                src="/images/fwdpitchdeckredesigning/IMG-20241115-WA0005.jpg.jpeg"
                 alt="Forest canopy and sustainable landscape"
                 fill
                 className="object-cover"

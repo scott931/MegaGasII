@@ -21,7 +21,7 @@ const cards: Card[] = [
     name: "Jane D.",
     location: "Ruiru",
     avatar:
-      "/images/local-05.jpg",
+      "/images/fwdpitchdeckredesigning/1000388888.jpg.jpeg",
     badge: "verified",
   },
   {
@@ -30,7 +30,7 @@ const cards: Card[] = [
     name: "Peter Mwangi",
     location: "Westlands, Nairobi",
     avatar:
-      "/images/local-06.jpg",
+      "/images/fwdpitchdeckredesigning/1000388936.jpg.jpeg",
     badge: "carbon",
     featured: true,
   },
@@ -40,7 +40,7 @@ const cards: Card[] = [
     name: "Lucy Achieng",
     location: "Kasarani",
     avatar:
-      "/images/local-07.jpg",
+      "/images/fwdpitchdeckredesigning/1000388967.jpg.jpeg",
     badge: "verified",
   },
   {
@@ -49,7 +49,7 @@ const cards: Card[] = [
     name: "Dr. Samira K.",
     location: "Program director",
     avatar:
-      "/images/local-08.jpg",
+      "/images/fwdpitchdeckredesigning/1000388977.jpg.jpeg",
     badge: "carbon",
   },
   {
@@ -58,7 +58,7 @@ const cards: Card[] = [
     name: "David O.",
     location: "Thika",
     avatar:
-      "/images/local-09.jpg",
+      "/images/fwdpitchdeckredesigning/1_1772050520_1000338869.jpg",
     badge: "verified",
   },
   {
@@ -67,7 +67,7 @@ const cards: Card[] = [
     name: "Grace W.",
     location: "Industrial Area",
     avatar:
-      "/images/local-10.jpg",
+      "/images/fwdpitchdeckredesigning/IMG-20241114-WA0070.jpg.jpeg",
     badge: "verified",
   },
   {
@@ -76,7 +76,7 @@ const cards: Card[] = [
     name: "James K.",
     location: "Kiambu",
     avatar:
-      "/images/local-11.jpg",
+      "/images/fwdpitchdeckredesigning/IMG-20241114-WA0072.jpg.jpeg",
     badge: "carbon",
   },
   {
@@ -85,7 +85,7 @@ const cards: Card[] = [
     name: "Rev. Mutua",
     location: "Machakos",
     avatar:
-      "/images/local-12.jpg",
+      "/images/fwdpitchdeckredesigning/IMG-20241115-WA0002.jpg.jpeg",
     badge: "verified",
   },
 ];

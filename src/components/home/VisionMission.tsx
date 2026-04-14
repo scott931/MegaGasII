@@ -31,7 +31,7 @@ export function VisionMission() {
 
           <div className="relative h-full min-h-[240px] overflow-hidden rounded-2xl border border-brand-forest/10 shadow-mint-soft">
             <Image
-              src="/images/local-07.jpg"
+              src="/images/fwdpitchdeckredesigning/1000388967.jpg.jpeg"
               alt="Sustainable landscape and clean energy"
               fill
               className="object-cover"

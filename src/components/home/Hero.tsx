@@ -10,7 +10,7 @@ export function Hero() {
           muted
           loop
           playsInline
-          poster="/images/local-04.jpg"
+          poster="/images/fwdpitchdeckredesigning/1000388880.jpg.jpeg"
         >
           <source src="/images/NEWCOMMUNITYKITCHENLAUNCHKAYOLE.mp4" type="video/mp4" />
         </video>

@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const imgSrc =
-  "/images/local-08.jpg";
+  "/images/fwdpitchdeckredesigning/1000388977.jpg.jpeg";
 
 export function OurStoryHero() {
   return (
