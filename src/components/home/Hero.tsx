@@ -10,12 +10,9 @@ export function Hero() {
           muted
           loop
           playsInline
-          poster="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1920&q=80"
+          poster="/images/local-04.jpg"
         >
-          <source
-            src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
-            type="video/mp4"
-          />
+          <source src="/images/NEWCOMMUNITYKITCHENLAUNCHKAYOLE.mp4" type="video/mp4" />
         </video>
         <div
           className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/25 to-transparent"

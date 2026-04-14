@@ -13,12 +13,12 @@ const leadership: TeamMember[] = [
   {
     name: "Peter Njeri",
     role: "Co-founder & CEO",
-    img: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80",
+    img: "/images/local-02.jpg",
   },
   {
     name: "Margaret Maina",
     role: "Co-founder & Head of Business Development",
-    img: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+    img: "/images/local-03.jpg",
   },
 ];
 

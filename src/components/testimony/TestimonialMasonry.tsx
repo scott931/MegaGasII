@@ -21,7 +21,7 @@ const cards: Card[] = [
     name: "Jane D.",
     location: "Ruiru",
     avatar:
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=120&q=80",
+      "/images/local-05.jpg",
     badge: "verified",
   },
   {
@@ -30,7 +30,7 @@ const cards: Card[] = [
     name: "Peter Mwangi",
     location: "Westlands, Nairobi",
     avatar:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=120&q=80",
+      "/images/local-06.jpg",
     badge: "carbon",
     featured: true,
   },
@@ -40,7 +40,7 @@ const cards: Card[] = [
     name: "Lucy Achieng",
     location: "Kasarani",
     avatar:
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=120&q=80",
+      "/images/local-07.jpg",
     badge: "verified",
   },
   {
@@ -49,7 +49,7 @@ const cards: Card[] = [
     name: "Dr. Samira K.",
     location: "Program director",
     avatar:
-      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=120&q=80",
+      "/images/local-08.jpg",
     badge: "carbon",
   },
   {
@@ -58,7 +58,7 @@ const cards: Card[] = [
     name: "David O.",
     location: "Thika",
     avatar:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&q=80",
+      "/images/local-09.jpg",
     badge: "verified",
   },
   {
@@ -67,7 +67,7 @@ const cards: Card[] = [
     name: "Grace W.",
     location: "Industrial Area",
     avatar:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=120&q=80",
+      "/images/local-10.jpg",
     badge: "verified",
   },
   {
@@ -76,7 +76,7 @@ const cards: Card[] = [
     name: "James K.",
     location: "Kiambu",
     avatar:
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&q=80",
+      "/images/local-11.jpg",
     badge: "carbon",
   },
   {
@@ -85,7 +85,7 @@ const cards: Card[] = [
     name: "Rev. Mutua",
     location: "Machakos",
     avatar:
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=120&q=80",
+      "/images/local-12.jpg",
     badge: "verified",
   },
 ];

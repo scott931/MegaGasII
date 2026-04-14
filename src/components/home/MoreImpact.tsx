@@ -6,27 +6,27 @@ const blocks = [
   {
     metric: "Hard Work",
     label: "We are driven by action and results, working tirelessly to deliver impact at scale.",
-    src: "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&q=80",
+    src: "/images/local-13.jpg",
   },
   {
     metric: "Integrity",
     label: "We operate with transparency, accountability, and trust in everything we do.",
-    src: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&q=80",
+    src: "/images/local-14.jpg",
   },
   {
     metric: "Commitment",
     label: "We are dedicated to our mission, our communities, and long-term sustainability.",
-    src: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80",
+    src: "/images/local-15.jpg",
   },
   {
     metric: "Resilience",
     label: "We adapt, innovate, and persist in solving complex energy and environmental challenges.",
-    src: "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=800&q=80",
+    src: "/images/local-16.jpg",
   },
   {
     metric: "Compassion",
     label: "We design solutions with empathy, putting the needs of our communities first.",
-    src: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80",
+    src: "/images/local-17.jpg",
   },
 ];
 
@@ -34,52 +34,52 @@ const moreImpactStills = [
   {
     value: "10k+",
     label: "Trees planted",
-    src: "https://images.unsplash.com/photo-1441974230691-2868338cade4?w=800&q=80",
+    src: "/images/local-18.jpg",
   },
   {
     value: "35%",
     label: "Emissions reduced",
-    src: "https://images.unsplash.com/photo-1508514177221-188b7e4e3d94b?w=800&q=80",
+    src: "/images/local-19.jpg",
   },
   {
     value: "120+",
     label: "Communities served",
-    src: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80",
+    src: "/images/local-15.jpg",
   },
   {
     value: "48MW",
     label: "Clean capacity",
-    src: "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=800&q=80",
+    src: "/images/local-16.jpg",
   },
   {
     value: "2.4M",
     label: "Tons CO₂ offset",
-    src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    src: "/images/local-01.jpg",
   },
   {
     value: "500+",
     label: "Local jobs",
-    src: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80",
+    src: "/images/local-02.jpg",
   },
   {
     value: "18",
     label: "Partner regions",
-    src: "https://images.unsplash.com/photo-1526778548025-fbeb247a6af7?w=800&q=80",
+    src: "/images/local-03.jpg",
   },
   {
     value: "99.2%",
     label: "Uptime target",
-    src: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&q=80",
+    src: "/images/local-14.jpg",
   },
   {
     value: "24/7",
     label: "Monitoring",
-    src: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80",
+    src: "/images/local-04.jpg",
   },
   {
     value: "12",
     label: "R&D pilots",
-    src: "https://images.unsplash.com/photo-1518495973542-4542c06a8f59?w=800&q=80",
+    src: "/images/local-05.jpg",
   },
 ];
 

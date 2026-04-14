@@ -5,7 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 
 const imgSrc =
-  "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1920&q=85";
+  "/images/local-09.jpg";
 
 export function OverviewVisualAnchor() {
   return (

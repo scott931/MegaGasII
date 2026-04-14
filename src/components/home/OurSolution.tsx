@@ -46,7 +46,7 @@ export function OurSolution() {
               className="absolute inset-x-0 top-[-8%] h-[116%] w-full"
             >
               <Image
-                src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=1200&q=80"
+                src="/images/local-13.jpg"
                 alt="Forest canopy and sustainable landscape"
                 fill
                 className="object-cover"

@@ -4,9 +4,9 @@ import Image from "next/image";
 import { useState } from "react";
 
 const beforeSrc =
-  "https://images.unsplash.com/photo-1448375240586-882707db888b?w=900&q=80";
+  "/images/local-06.jpg";
 const afterSrc =
-  "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=900&q=80";
+  "/images/local-07.jpg";
 
 export function BeforeAfterSlider() {
   const [pct, setPct] = useState(50);

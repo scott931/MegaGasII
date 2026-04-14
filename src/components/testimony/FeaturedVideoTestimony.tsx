@@ -6,7 +6,7 @@ import { Play } from "lucide-react";
 import { useState } from "react";
 
 const poster =
-  "https://images.unsplash.com/photo-1581092160562-40aa08ec7889?w=1600&q=85";
+  "/images/local-01.jpg";
 
 export function FeaturedVideoTestimony() {
   const [playing, setPlaying] = useState(false);
@@ -61,17 +61,22 @@ export function FeaturedVideoTestimony() {
                 </p>
               </>
             ) : (
-              <div className="flex aspect-video flex-col items-center justify-center gap-4 bg-softwhite px-6 text-center">
-                <p className="max-w-md text-base text-neutral-700">
-                  Full production interview will be published here. Connect with our team for
-                  early access or partner screenings.
-                </p>
+              <div className="relative aspect-video w-full bg-black">
+                <video
+                  className="h-full w-full object-cover"
+                  controls
+                  autoPlay
+                  playsInline
+                  preload="metadata"
+                >
+                  <source src="/images/NEWCOMMUNITYKITCHENLAUNCHKAYOLE.mp4" type="video/mp4" />
+                </video>
                 <button
                   type="button"
                   onClick={() => setPlaying(false)}
-                  className="rounded-full border border-[#1B4332]/25 bg-white px-5 py-2 text-sm font-medium text-[#1B4332] transition hover:bg-emerald-50"
+                  className="absolute right-4 top-4 rounded-full border border-white/65 bg-black/55 px-4 py-1.5 text-xs font-semibold uppercase tracking-wide text-white transition hover:bg-black/70"
                 >
-                  Back to preview
+                  Back
                 </button>
               </div>
             )}

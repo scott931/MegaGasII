@@ -10,7 +10,7 @@ const spotlights = [
     body:
       "Joint working groups align cylinder standards with national energy goals. Together we are rolling out monitored refills and consumer education—targeting 10,000+ households with verifiable safety checks.",
     image:
-      "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=900&q=80",
+      "/images/local-10.jpg",
     imageAlt: "Technician reviewing gas installation with residents",
   },
   {
@@ -19,7 +19,7 @@ const spotlights = [
     body:
       "Co-designed pilots bring reliable LPG to institutions that feed the most vulnerable. We share impact metrics—from indoor air improvements to hours saved—so funders see outcomes, not just outputs.",
     image:
-      "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?w=900&q=80",
+      "/images/local-11.jpg",
     imageAlt: "Community kitchen with staff preparing meals",
   },
   {
@@ -28,7 +28,7 @@ const spotlights = [
     body:
       "Dedicated routes and shared telemetry reduce downtime at exchange points. Partners embed our leak-response protocols so last-mile delivery stays accountable across counties.",
     image:
-      "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?w=900&q=80",
+      "/images/local-12.jpg",
     imageAlt: "Logistics and distribution facility",
   },
 ];

@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const imgSrc =
-  "https://images.unsplash.com/photo-1581092160562-40aa08ec7889?w=900&q=80";
+  "/images/local-08.jpg";
 
 export function OurStoryHero() {
   return (
