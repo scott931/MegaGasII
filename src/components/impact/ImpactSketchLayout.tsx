@@ -59,7 +59,7 @@ export function ImpactSketchLayout() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.35 }}
-          className="text-4xl font-bold text-[#1B4332] sm:text-5xl"
+          className="text-4xl font-bold uppercase tracking-tight text-[#1B4332] sm:text-5xl"
         >
           Impact
         </motion.h1>

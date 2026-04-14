@@ -7,15 +7,13 @@ import logo from "@/images/logo1.png";
 
 const quickLinks = [
   { label: "Home", href: "/" },
-  { label: "About Us", href: "/about-us" },
+  { label: "Community Kitchens", href: "/community-kitchen" },
+  { label: "About us", href: "/about-us" },
+  { label: "Impact", href: "/impact" },
   { label: "Overview", href: "/overview" },
-  { label: "Testimony", href: "/testimony" },
+  { label: "Testimonials", href: "/testimony" },
   { label: "Partners", href: "/partners" },
-  { label: "Our Solution", href: "#solution" },
-  { label: "Environmental Impact", href: "/impact" },
-  { label: "Community Kitchen", href: "/community-kitchen" },
-  { label: "Contact", href: "/contact" },
-  { label: "Careers", href: "#careers" },
+  { label: "Contact Us", href: "/contact" },
 ];
 
 function SocialIcon({
